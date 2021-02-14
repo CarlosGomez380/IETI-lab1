@@ -2,7 +2,7 @@ import React from 'react';
 import Todo from './Todo';
 
 function TodoList(props) {
-    const listTodo = props.todoList;
+    const listTodo = props.items;
     var listItems = "";
     return (
         
